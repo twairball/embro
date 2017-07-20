@@ -1,1 +1,1 @@
-python neural_style/neural_style.py train --dataset data --style-image images/style-images/bird_flower.png --save-model-dir results/bird_flower/ --epochs 2 --cuda 1
+python neural_style/neural_style.py train --dataset data --style-image images/style-images/bird_flower.png --style-weight 1e11 --content-weight 1e5 --save-model-dir results/bird_flower/ --epochs 2 --cuda 1
